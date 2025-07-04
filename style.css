@@ -46,7 +46,41 @@ body{
     left: 3%;
     color: white;
     font-size: 27px;
-    font-family: ;
+    
     text-align: center;
     z-index: 1;
+}
+.sechero{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    z-index: 1;
+}
+#secpage div{
+    height: 200px;
+    width: 50%;
+    border: 1px solid black; 
+}
+#secpage{
+    width: 200%;
+    height: 100px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 50%; */
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 10px; */
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    overflow-x: scroll;
+    gap: 20px;
+    scrollbar-width: none;
+
+    
+
 }
