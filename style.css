@@ -1,65 +1,52 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-max-width: 100%;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
-
-body {
-font-family: 'Segoe UI', Tahoma, sans-serif;
-background-color: #f9f9f9;
-overflow-x: hidden;
-overflow-y: auto;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
-/* ==================HEADER STARTS FROM HERE===================== */
-.main-header {
-background-color: white;
-padding: 2px 0px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-bottom:  solid #ccc;
-
-}
-
-.logo {
-font-size: 9px;
-font-weight: lighter;
-color: black;
-}
-
-.logo i {
-margin-right: 8px;
-color:black;
+/* ==========header========== */
+.mainheader{
+    background-color: whitesmoke;
+    padding: 4px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #ccc;
 
 }
-
-.navbar a {
-text-decoration: none;
-color: black;
-margin-left: 8px;
-font-size: 8px;
-transition: color 0.3s ease;
-
+.logo{
+    font-size: 9px;
+    font-weight: lighter;
+    color: black;
 }
-
-.navbar a i {
-margin-right: 6px;
-color:black;
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 8px;
+    font-size: 8px;
 }
-
-.navbar a:hover {
-color: black;
+.navbar a i{
+    margin-right: 6px;
+    color: black;
 }
-/* ===================main============== */
-#hero {
-    background-image: url();
+#firstpage img{
     width: 100%;
     height: 90vh;
-
 }
-#hero img{
-    height: 100%;
-    width: 100%;
+.heropage{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    color: white;
+    font-size: 27px;
+    font-family: ;
+    text-align: center;
+    z-index: 1;
 }
-
