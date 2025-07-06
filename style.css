@@ -84,3 +84,13 @@ body{
     /* progress time appr summary meter  */
 
 }
+#secondpage{
+font-weight: 10;
+    color: grey;
+    font-size: small;
+    text-align: center;
+}
+.features{
+    font-size:xx-small;
+    
+}
