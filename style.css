@@ -196,9 +196,60 @@ font-weight: normal;
 #thirdpage{
     background-color:whitesmoke;
 }
+#fourthpage h5{
+    font-weight: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 #fourthpage p{
     font-weight: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    color: #403c3c;
+
+}
+#team-container {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.photos {
+    width: 135px;
+    height: auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+}
+
+
+
+.photos img {
+width: 135px;
+height: auto;
+object-fit: cover;
+}
+
+.photos h4 {
+    margin: 10px 0 5px;
+    font-size: 12px;
+    color: #272727;
+    text-align: center;
+}
+
+#team-container .photos p {
+    margin: 12px;
+    font-size: 8px;
+    color: #2d2b2b;
     text-align: center;
 }
 
