@@ -22,7 +22,7 @@ body{
 
 }
 .logo{
-    font-size: 9px;
+    font-size: 10px;
     font-weight: lighter;
     color: black;
 }
@@ -33,7 +33,7 @@ body{
     font-size: 8px;
 }
 .navbar a i{
-    margin-right: 6px;
+    margin-right: 8px;
     color: black;
 }
 #firstpage img{
@@ -45,7 +45,7 @@ body{
     top: 30%;
     left: 3%;
     color: white;
-    font-size: 27px;
+    font-size: 20px;
     
     text-align: center;
     z-index: 1;
@@ -104,10 +104,10 @@ display: flex;
 
 }
 .feature-box {
-width: 20%;
-height: 150px;
+width: 250%;
+height: auto;
 background-color: #f0f0f0;
-border: 2px solid #ccc;
+border: 1px solid #ccc;
 text-align: center;
 font-weight: normal;
 padding-top: 20px;
@@ -117,7 +117,7 @@ align-items: center;
 justify-content: center;
 }
 .icons {
-font-size: 30px;
+font-size: 300px;
 color: #000000;
 margin-bottom: 10px;
 }
@@ -252,7 +252,10 @@ object-fit: cover;
     color: #2d2b2b;
     text-align: center;
 }
-
+#fifth-page h3{
+    display: flex;
+    text-align: center;
+}
 
 
 
