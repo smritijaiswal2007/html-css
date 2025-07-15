@@ -402,4 +402,31 @@ line-height: 20px;
 font-size: 10px;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
+.top-btn {
+width: 15%;
+bottom: 40px;
+right: 50%;
+background-color: #0b0909ff;
+color: white;
+text-decoration: none;
+padding: 7px 7px;
+border-radius: 1px;
+font-size: 10px;
+display: flex;
+align-items: center;
+
+gap: 2px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+transition: background 0.3s ease;
+
+
+}
+
+.top-btn:hover {
+background-color: #e0e0e0;
+}
 
